@@ -1,0 +1,13 @@
+name: ad_pynq
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - nb_conda # might be unneccessary
+  - pip
+  - pip:
+    - jupyter
+    - tensorflow==2.7.0
+    - hls4ml[profiling]==0.6.0
+    - qkeras==0.9.0
+    - scikit-learn
