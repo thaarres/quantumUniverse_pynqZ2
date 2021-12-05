@@ -5,7 +5,7 @@
 In this tutorial, we will demonstrate how to design and deploy a fast and resource inexpensive anomaly detection algorithm on an FPGA, using the [ADC2021 challenge dataset](https://mpp-hep.github.io/ADC2021/).
 In the first notebook we will design a quantized and pruned autoencoder, in the second notebook we will create the neccessary bitfile to deploy this model on an FPGA, and in the final notebook we will put the model on a small inexpensive chip and measure the latency.
 
-You will learn how to use relevant libraries like the [Tensorflow Model Optimization Toolkit](https://www.tensorflow.org/model_optimization), [Keras](https://github.com/google/qkeras) and [hls4ml](https://fastmachinelearning.org/hls4ml/).
+You will learn how to use relevant tools like model pruning with the [Tensorflow Model Optimization Toolkit](https://www.tensorflow.org/model_optimization), quantization-aware training with [QKeras](https://github.com/google/qkeras) and deploying low-latency DNNs on FPGA using [hls4ml](https://fastmachinelearning.org/hls4ml/).
 
 
 
