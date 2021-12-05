@@ -1,6 +1,6 @@
-<img src="images/front.png" alt="The ADC2021 Challenge" width="200" img align="right"/>
-
 # Fast anomaly detection on a Xilinx Zynq SoC
+
+<img src="images/front.png" alt="The ADC2021 Challenge" width="200" img align="right"/>
 
 In this tutorial, we will demonstrate how to design and deploy a fast and resource inexpensive anomaly detection algorithm on an FPGA, using the [ADC2021 challenge dataset](https://mpp-hep.github.io/ADC2021/).
 In the first notebook we will design a quantized and pruned autoencoder, in the second notebook we will create the neccessary bitfile to deploy this model on an FPGA, and in the final notebook we will put the model on a small inexpensive chip and measure the latency.
@@ -22,7 +22,7 @@ Note that this environment does *not include Vivado HLS* and assumes you have a 
 A Docker image for the tutorial is in the making.
 
 ## Set up FPGA
-<img src="images/pynq.png" alt="pynq" width="200" img align="right"/>
+<img src="images/pynq.png" alt="pynq" width="200" img align="left"/>
 We will deploy two models and measure the inference latency on a Pynq Z2 System-on-Chip. You can buy this board yourself for under 200 euros,see for instance [here](https://www.newark.com/tul-corporation/1m1-m000127dva/tul-pynq-z2-advanced-kit-rohs/dp/69AC1753).
 
 
