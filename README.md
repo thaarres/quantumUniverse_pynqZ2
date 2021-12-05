@@ -23,7 +23,7 @@ A Docker image for the tutorial is in the making.
 
 ## Set up FPGA
 <img src="images/pynq.png" alt="pynq" width="200" img align="left"/>
-We will deploy two models and measure the inference latency on a Pynq Z2 System-on-Chip. You can buy this board yourself for under 200 euros,see for instance [here](https://www.newark.com/tul-corporation/1m1-m000127dva/tul-pynq-z2-advanced-kit-rohs/dp/69AC1753).
+We will deploy two models and measure the inference latency on a Pynq Z2 System-on-Chip. You can buy this board yourself for under 200 euros,see for instance [this link](https://www.newark.com/tul-corporation/1m1-m000127dva/tul-pynq-z2-advanced-kit-rohs/dp/69AC1753).
 
 
 The first thing you have to do, is connect the board following [these instructions](https://pynq.readthedocs.io/en/latest/getting_started/pynq_z2_setup.html). I always connect it to a power source and then directly to my router, connect my computer to the WiFi on the same router, check which IP the pynq gets, then connect to the board in my browser with [http://board_IP_address](http://board_IP_address). You can also connect the board directly to your computer, but that honestly never worked for me on Mac. But please try by following the instructions on the link above! You will be prompted for a password, which is *xilinx*.
