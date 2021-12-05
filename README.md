@@ -9,6 +9,8 @@ You will learn how to use relevant libraries like the [Tensorflow Model Optimiza
 
 
 
+
+
 ## Set up environment using Conda
 The Python environment neccessary to execute these notebooks are in the `environment.yml` file. To set it up using Conda:
 ```
