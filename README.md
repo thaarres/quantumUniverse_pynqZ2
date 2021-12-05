@@ -1,5 +1,7 @@
 # Fast anomaly detection on a Xilinx Zynq SoC
 
+<img src="images/front.png" alt="The ADC2021 Challenge" width="300" img align="left"/><img src="images/pynq.png" alt="pynq" width="500" img align="right"/>
+
 In this tutorial, we will demonstrate how to design and deploy a fast and resource inexpensive anomaly detection algorithm on an FPGA.
 In the first notebook we will design a quantized and pruned autoencoder, in the second notebook we will create the neccessary bitfile to deploy this model on an FPGA, and in the final notebook we will put the model on a small inexpensive chip and measure the latency.
 
